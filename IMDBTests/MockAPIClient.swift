@@ -37,7 +37,7 @@ struct MockAPIClient: APIClient {
         let url = URL(fileURLWithPath: path)
         do {
             let data = try Data(contentsOf: url)
-            let payload = try JSONDecoder().decode(Results.self, from: data)
+            let payload = try JSONDecoder().decode(MovieResults.self, from: data)
             return Just(payload.results)
                 .setFailureType(to: APIClientError.self)
                 .eraseToAnyPublisher()
@@ -62,6 +62,51 @@ struct MockAPIClient: APIClient {
                 .eraseToAnyPublisher()
         } catch {
             return Fail<MovieDetail, APIClientError>(error: .invalidResponse)
+                .eraseToAnyPublisher()
+        }
+    }
+    
+    func retrieveTVShows(option: TVShowDataModel.Option) -> AnyPublisher<[TVShow], APIClientError> {
+        let resource: String
+        switch option {
+        case .topRated:
+            resource = "TopRatedTVShow"
+        default:
+            resource = "\(option.description)TVShow"
+        }
+        
+        guard let path = pathForResource(name: resource, ofType: ".json") else {
+            return Just([])
+                .setFailureType(to: APIClientError.self)
+                .eraseToAnyPublisher()
+        }
+        let url = URL(fileURLWithPath: path)
+        do {
+            let data = try Data(contentsOf: url)
+            let payload = try JSONDecoder().decode(TVShowResults.self, from: data)
+            return Just(payload.results)
+                .setFailureType(to: APIClientError.self)
+                .eraseToAnyPublisher()
+        } catch {
+            return Fail<[TVShow], APIClientError>(error: .invalidResponse)
+                .eraseToAnyPublisher()
+        }
+    }
+    
+    func retrieveTVShowDetail(id: Int) -> AnyPublisher<TVShowDetail, APIClientError> {
+        guard let path = pathForResource(name: "TVShowDetail", ofType: ".json") else {
+            return Fail<TVShowDetail, APIClientError>(error: .addressUnreachable(URL(string: "TVShowDetail.json")!))
+                .eraseToAnyPublisher()
+        }
+        let url = URL(fileURLWithPath: path)
+        do {
+            let data = try Data(contentsOf: url)
+            let payload = try JSONDecoder().decode(TVShowDetail.self, from: data)
+            return Just(payload)
+                .setFailureType(to: APIClientError.self)
+                .eraseToAnyPublisher()
+        } catch {
+            return Fail<TVShowDetail, APIClientError>(error: .invalidResponse)
                 .eraseToAnyPublisher()
         }
     }

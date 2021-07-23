@@ -5,9 +5,9 @@
 //  Created by Ariel Rodriguez on 23/07/2021.
 //
 
-import XCTest
 @testable import IMDB
 import Combine
+import XCTest
 
 class MovieDataModelTests: XCTestCase {
     var dataModel: MovieDataModel!

@@ -13,7 +13,6 @@
 		79EC12FB26A7465700CBBB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EC12FA26A7465700CBBB46 /* Assets.xcassets */; };
 		79EC12FE26A7465700CBBB46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EC12FD26A7465700CBBB46 /* Preview Assets.xcassets */; };
 		79EC130126A7465700CBBB46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79EC12FF26A7465700CBBB46 /* LaunchScreen.storyboard */; };
-		79EC130C26A7465700CBBB46 /* IMDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EC130B26A7465700CBBB46 /* IMDBTests.swift */; };
 		79EC131726A7465700CBBB46 /* IMDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EC131626A7465700CBBB46 /* IMDBUITests.swift */; };
 		79EC132926A7490000CBBB46 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EC132826A7490000CBBB46 /* MovieListView.swift */; };
 		79EC132B26A7492800CBBB46 /* SeriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EC132A26A7492800CBBB46 /* SeriesListView.swift */; };
@@ -51,6 +50,10 @@
 		79FC7CE426AAEC1F0016D943 /* TVShowDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FC7CE326AAEC1F0016D943 /* TVShowDetailPresenter.swift */; };
 		79FC7CE626AAED480016D943 /* TVShowDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FC7CE526AAED480016D943 /* TVShowDetail.swift */; };
 		79FC7CE826AAF75C0016D943 /* TVShowListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FC7CE726AAF75C0016D943 /* TVShowListCell.swift */; };
+		79FC7CEA26AB32020016D943 /* PopularTVShow.json in Resources */ = {isa = PBXBuildFile; fileRef = 79FC7CE926AB32020016D943 /* PopularTVShow.json */; };
+		79FC7CEC26AB32230016D943 /* TopRatedTVShow.json in Resources */ = {isa = PBXBuildFile; fileRef = 79FC7CEB26AB32230016D943 /* TopRatedTVShow.json */; };
+		79FC7CEE26AB32AB0016D943 /* TVShowDetail.json in Resources */ = {isa = PBXBuildFile; fileRef = 79FC7CED26AB32AB0016D943 /* TVShowDetail.json */; };
+		79FC7CF026AB332B0016D943 /* TVShowDataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FC7CEF26AB332B0016D943 /* TVShowDataModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,7 +97,6 @@
 		79EC130026A7465700CBBB46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79EC130226A7465700CBBB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79EC130726A7465700CBBB46 /* IMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		79EC130B26A7465700CBBB46 /* IMDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDBTests.swift; sourceTree = "<group>"; };
 		79EC130D26A7465700CBBB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79EC131226A7465700CBBB46 /* IMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EC131626A7465700CBBB46 /* IMDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDBUITests.swift; sourceTree = "<group>"; };
@@ -133,6 +135,10 @@
 		79FC7CE326AAEC1F0016D943 /* TVShowDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailPresenter.swift; sourceTree = "<group>"; };
 		79FC7CE526AAED480016D943 /* TVShowDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetail.swift; sourceTree = "<group>"; };
 		79FC7CE726AAF75C0016D943 /* TVShowListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowListCell.swift; sourceTree = "<group>"; };
+		79FC7CE926AB32020016D943 /* PopularTVShow.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PopularTVShow.json; sourceTree = "<group>"; };
+		79FC7CEB26AB32230016D943 /* TopRatedTVShow.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TopRatedTVShow.json; sourceTree = "<group>"; };
+		79FC7CED26AB32AB0016D943 /* TVShowDetail.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TVShowDetail.json; sourceTree = "<group>"; };
+		79FC7CEF26AB332B0016D943 /* TVShowDataModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDataModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,9 +220,9 @@
 			children = (
 				79EC134526A87C7E00CBBB46 /* MockAPIClient.swift */,
 				79FC7CAC26A9AFF30016D943 /* Resources */,
-				79EC130B26A7465700CBBB46 /* IMDBTests.swift */,
 				79EC130D26A7465700CBBB46 /* Info.plist */,
 				79FC7CC926AACB7E0016D943 /* MovieDataModelTests.swift */,
+				79FC7CEF26AB332B0016D943 /* TVShowDataModelTests.swift */,
 			);
 			path = IMDBTests;
 			sourceTree = "<group>";
@@ -341,6 +347,9 @@
 				79FC7CAF26A9C4690016D943 /* TopRatedMovie.json */,
 				79FC7CB126A9C5CC0016D943 /* UpcomingMovie.json */,
 				79FC7CB926A9E7D50016D943 /* MovieDetail.json */,
+				79FC7CE926AB32020016D943 /* PopularTVShow.json */,
+				79FC7CEB26AB32230016D943 /* TopRatedTVShow.json */,
+				79FC7CED26AB32AB0016D943 /* TVShowDetail.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -512,8 +521,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				79FC7CC526AA33880016D943 /* PopularMovie.json in Resources */,
+				79FC7CEC26AB32230016D943 /* TopRatedTVShow.json in Resources */,
+				79FC7CEE26AB32AB0016D943 /* TVShowDetail.json in Resources */,
 				79FC7CC226AA33880016D943 /* UpcomingMovie.json in Resources */,
 				79FC7CC426AA33880016D943 /* TopRatedMovie.json in Resources */,
+				79FC7CEA26AB32020016D943 /* PopularTVShow.json in Resources */,
 				79FC7CC326AA33880016D943 /* MovieDetail.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -571,7 +583,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79FC7CCA26AACB7E0016D943 /* MovieDataModelTests.swift in Sources */,
-				79EC130C26A7465700CBBB46 /* IMDBTests.swift in Sources */,
+				79FC7CF026AB332B0016D943 /* TVShowDataModelTests.swift in Sources */,
 				79FC7CCB26AAD02E0016D943 /* MockAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
