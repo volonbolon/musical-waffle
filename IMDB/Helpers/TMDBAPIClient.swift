@@ -30,7 +30,7 @@ struct TMDBAPIClient: APIClient {
         }
         
         return manager.loadData(from: url)
-            .decode(type: Results.self, decoder: JSONDecoder())
+            .decode(type: MovieResults.self, decoder: JSONDecoder())
             .mapError({ error in
                 APIClientError.error(error)
             })
@@ -55,6 +55,50 @@ struct TMDBAPIClient: APIClient {
         
         return manager.loadData(from: url)
             .decode(type: MovieDetail.self, decoder: JSONDecoder())
+            .mapError({ error in
+                APIClientError.error(error)
+            })
+            .eraseToAnyPublisher()
+    }
+    
+    func retrieveTVShows(option: TVShowDataModel.Option) -> AnyPublisher<[TVShow], APIClientError> {
+        let path = "3/tv/\(option.key)"
+        guard let url = URLBuilder()
+                .set(scheme: "https")
+                .set(host: "api.themoviedb.org")
+                .set(path: path)
+                .addQueryItem(name: "api_key", value: Constants.apiKey)
+                .build() else {
+            return Fail<[TVShow], APIClientError>(error: .invalidURL)
+                .eraseToAnyPublisher()
+        }
+        
+        return manager.loadData(from: url)
+            .decode(type: TVShowResults.self, decoder: JSONDecoder())
+            .mapError({ error in
+                APIClientError.error(error)
+            })
+            .map { $0.results }
+            .eraseToAnyPublisher()
+    }
+    
+    func retrieveTVShowDetail(id: Int) -> AnyPublisher<TVShowDetail, APIClientError> {
+        let path = "3/tv/\(id)"
+        guard let url = URLBuilder()
+                .set(scheme: "https")
+                .set(host: "api.themoviedb.org")
+                .set(path: path)
+                .addQueryItem(name: "api_key",
+                              value: Constants.apiKey)
+                .addQueryItem(name: "append_to_response",
+                              value: "videos")
+                .build() else {
+            return Fail<TVShowDetail, APIClientError>(error: .invalidURL)
+                .eraseToAnyPublisher()
+        }
+        
+        return manager.loadData(from: url)
+            .decode(type: TVShowDetail.self, decoder: JSONDecoder())
             .mapError({ error in
                 APIClientError.error(error)
             })

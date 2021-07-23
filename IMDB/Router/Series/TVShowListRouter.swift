@@ -1,12 +1,17 @@
 //
-//  SeriesListRouter.swift
+//  TVShowListRouter.swift
 //  IMDB
 //
 //  Created by Ariel Rodriguez on 23/07/2021.
 //
 
-import Foundation
+import SwiftUI
 
-//class SeriesListRouter {
-//    func makeDetailView(for series: Int, model)
-//}
+class TVShowListRouter {
+    func makeDetailView(for showID: Int,
+                        model: TVShowDataModel) -> some View {
+        let interactor = TVShowDetailInteractor(model: model, showID: showID)
+        let presenter = TVShowDetailPresenter(interactor: interactor)
+        return TVShowDetailView(presenter: presenter)
+    }
+}

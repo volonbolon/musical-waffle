@@ -16,6 +16,14 @@ struct AppDependencyContainer {
                                            router: router)
         return MovieListView(presenter: presenter)
     }
+    
+    static func makeTVShowsListView(model: TVShowDataModel) -> some View {
+        let interactor = TVShowListInteractor(model: model)
+        let router = TVShowListRouter()
+        let presenter = TVShowListPresenter(interactor: interactor,
+                                            router: router)
+        return SeriesListView(presenter: presenter)
+    }
 }
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -33,8 +41,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let client = TMDBAPIClient()
         let movieModel = MovieDataModel(client: client)
         movieModel.selectedOption = MovieDataModel.Option.popular.rawValue
+        let tvShowModel = TVShowDataModel(client: client)
+        tvShowModel.selectedOption = TVShowDataModel.Option.popular.rawValue
         let contentView = ContentView()
             .environmentObject(movieModel)
+            .environmentObject(tvShowModel)
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

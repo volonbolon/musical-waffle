@@ -6,7 +6,7 @@
 //
 
 import Combine
-import SwiftUI
+import Foundation
 
 class MovieDetailPresenter: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
@@ -20,7 +20,7 @@ class MovieDetailPresenter: ObservableObject {
     
     func loadMovie() {
         interactor.model.load(movie: interactor.movieID)
-            .receive(on: RunLoop.main)
+            .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: { completion in
                 if case .failure(let error) = completion {
                     print(error)

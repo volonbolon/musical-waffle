@@ -67,7 +67,6 @@ struct TitleLabel: View {
 
 struct MovieListCell: View {
     var movie: MovieListPresenter.MovieList
-    @State private var cancellable: AnyCancellable?
     
     var body: some View {
         GeometryReader { geometry in
@@ -77,7 +76,6 @@ struct MovieListCell: View {
                     RemoteImage(url: url)
                         .aspectRatio(contentMode: .fit)
                         .frame(width: geometry.size.width, height: geometry.size.height)
-                        .cornerRadius(30)
                 }
                 BlurView()
                     .frame(width: geometry.size.width, height: geometry.size.height)

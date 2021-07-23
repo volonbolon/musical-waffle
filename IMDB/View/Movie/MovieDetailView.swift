@@ -5,7 +5,6 @@
 //  Created by Ariel Rodriguez on 20/07/2021.
 //
 
-import AVKit
 import SwiftUI
 
 struct MovieDetailView: View {

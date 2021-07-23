@@ -8,7 +8,7 @@
 import Combine
 import SwiftUI
 
-class MovieListPresenter: ObservableObject {
+final class MovieListPresenter: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
     private let interactor: MovieListInteractorType
     private let router: MovieListRouter

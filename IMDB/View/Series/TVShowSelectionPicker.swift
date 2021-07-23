@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct TVShowSelectionPicker: View {
+    @Binding var selectedOption: Int
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct TVShowSelectionPicker_Previews: PreviewProvider {
-    static var previews: some View {
-        TVShowSelectionPicker()
+        Picker(selection: $selectedOption,
+               label: Text("Picker"),
+               content: {
+                Text(TVShowDataModel.Option.popular.description).tag(TVShowDataModel.Option.popular.rawValue)
+                Text(TVShowDataModel.Option.topRated.description).tag(TVShowDataModel.Option.topRated.rawValue)
+        })
+            .pickerStyle(SegmentedPickerStyle())
     }
 }

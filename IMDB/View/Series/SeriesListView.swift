@@ -8,13 +8,18 @@
 import SwiftUI
 
 struct SeriesListView: View {
+    var presenter: TVShowListPresenter
+    
     var body: some View {
-        Text("SeriesListView")
-    }
-}
-
-struct SeriesListView_Previews: PreviewProvider {
-    static var previews: some View {
-        SeriesListView()
+        List {
+            ForEach(presenter.shows, id: \.id) { show in
+                self.presenter.linkBuilder(for: show) {
+                    TVShowListCell(show: show)
+                        .frame(height: 160)
+                }
+            }
+        }
+        .navigationBarTitle("TV Shows")
+        .navigationBarItems(trailing: presenter.makeSelectionPicker())
     }
 }

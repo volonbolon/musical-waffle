@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class Results: Codable {
+final class MovieResults: Codable {
     let results: [Movie]
 }
 

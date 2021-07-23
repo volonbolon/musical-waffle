@@ -7,14 +7,38 @@
 
 import SwiftUI
 
-struct TVShowListCell: View {
+struct TVShowTitleLabel: View {
+    var votes: String
+    var title: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading, content: {
+            Text(title)
+                .font(.title)
+            VoteLabel(votes: "\(votes)")
+        })
+        .foregroundColor(.white)
+        .padding(EdgeInsets(top: 0, leading: 8, bottom: 4, trailing: 8))
     }
 }
 
-struct TVShowListCell_Previews: PreviewProvider {
-    static var previews: some View {
-        TVShowListCell()
+struct TVShowListCell: View {
+    var show: TVShow
+    
+    var body: some View {
+        GeometryReader { geometry in
+            ZStack(alignment: .bottomLeading, content: {
+                Color.black
+                if let url = show.backdrop {
+                    RemoteImage(url: url)
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: geometry.size.width, height: geometry.size.height)
+                }
+                BlurView()
+                    .frame(width: geometry.size.width, height: geometry.size.height)
+                TVShowTitleLabel(votes: "\(show.voteAverage)",
+                                 title: show.title)
+            })
+        }
     }
 }

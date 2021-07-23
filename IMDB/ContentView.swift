@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var movieModel: MovieDataModel
+    @EnvironmentObject var tvShowModel: TVShowDataModel
     var body: some View {
         TabView {
             NavigationView {
@@ -19,11 +20,13 @@ struct ContentView: View {
                       systemImage: "film")
             }
             
-            SeriesListView()
-                .tabItem {
-                    Label("Series",
-                          systemImage: "tv")
-                }
+            NavigationView {
+                AppDependencyContainer.makeTVShowsListView(model: tvShowModel)
+            }
+            .tabItem {
+                Label("Series",
+                      systemImage: "tv")
+            }
         }
     }
 }

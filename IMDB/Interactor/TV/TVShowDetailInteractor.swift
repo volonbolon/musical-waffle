@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+final class TVShowDetailInteractor {
+    let model: TVShowDataModel
+    let showID: Int
+    
+    init(model: TVShowDataModel, showID: Int) {
+        self.model = model
+        self.showID = showID
+    }
+}

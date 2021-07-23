@@ -43,4 +43,6 @@ extension APIClientError: Identifiable {
 protocol APIClient {
     func retrieveMovies(option: MovieDataModel.Option) -> AnyPublisher<[Movie], APIClientError>
     func retrieveMovieDetail(id: Int) -> AnyPublisher<MovieDetail, APIClientError>
+    func retrieveTVShows(option: TVShowDataModel.Option) -> AnyPublisher<[TVShow], APIClientError>
+    func retrieveTVShowDetail(id: Int) -> AnyPublisher<TVShowDetail, APIClientError>
 }
