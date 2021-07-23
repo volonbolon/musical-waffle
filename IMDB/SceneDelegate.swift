@@ -8,10 +8,21 @@
 import UIKit
 import SwiftUI
 
+struct AppDependencyContainer {
+    static func makeMovieListView(movieModel: MovieDataModel) -> some View {
+        let interactor = MovieListInteractor(model: movieModel)
+        let router = MovieListRouter()
+        let presenter = MovieListPresenter(interactor: interactor,
+                                           router: router)
+        return MovieListView(presenter: presenter)
+    }
+}
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+//    let client = TMDBAPIClient()
+//    let movieModel: MovieDataModel(client: client)
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -19,7 +30,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
+        let client = TMDBAPIClient()
+        let movieModel = MovieDataModel(client: client)
+        movieModel.selectedOption = MovieDataModel.Option.popular.rawValue
         let contentView = ContentView()
+            .environmentObject(movieModel)
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

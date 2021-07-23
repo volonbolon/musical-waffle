@@ -1,0 +1,101 @@
+{
+  "adult": false,
+  "backdrop_path": "/gX5UrH1TLVVBwI7WxplW43BD6Z1.jpg",
+  "belongs_to_collection": {
+    "id": 519457,
+    "name": "The Boss Baby Collection",
+    "poster_path": "/uVJPQ8wGZvW4h9Z7xpqToOxsuzH.jpg",
+    "backdrop_path": "/n2opkcFxIGc0plZJs45CAH8IjiF.jpg"
+  },
+  "budget": 82000000,
+  "genres": [
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 10751,
+      "name": "Family"
+    }
+  ],
+  "homepage": "https://www.dreamworks.com/movies/the-boss-baby-2",
+  "id": 459151,
+  "imdb_id": "tt6932874",
+  "original_language": "en",
+  "original_title": "The Boss Baby: Family Business",
+  "overview": "The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.",
+  "popularity": 5404.32,
+  "poster_path": "/5dExO5G2iaaTxYnLIFKLWofDzyI.jpg",
+  "production_companies": [
+    {
+      "id": 521,
+      "logo_path": "/kP7t6RwGz2AvvTkvnI1uteEwHet.png",
+      "name": "DreamWorks Animation",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "release_date": "2021-07-01",
+  "revenue": 37893745,
+  "runtime": 107,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Released",
+  "tagline": "Playtime is over.",
+  "title": "The Boss Baby: Family Business",
+  "video": false,
+  "vote_average": 8.0,
+  "vote_count": 718,
+  "videos": {
+    "results": [
+      {
+        "id": "5fbd6538d9f4a6003d99a593",
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "key": "QPzy8Ckza08",
+        "name": "THE BOSS BABY: FAMILY BUSINESS | Official Trailer",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer"
+      },
+      {
+        "id": "60da053e25b9550046b7b5ab",
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "key": "CK6xdYIsaa0",
+        "name": "DreamWorks' The Boss Baby: Family Business | Official Trailer #3 | Peacock",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer"
+      },
+      {
+        "id": "60da18b0d11e0e007639c9af",
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "key": "-rF2j6K5FoM",
+        "name": "The Boss Baby 2: Family Business – Official Trailer 2 (Universal Pictures) HD",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer"
+      }
+    ]
+  }
+}

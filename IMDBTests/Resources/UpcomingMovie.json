@@ -1,0 +1,418 @@
+{
+  "dates": {
+    "maximum": "2021-08-14",
+    "minimum": "2021-07-18"
+  },
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/gX5UrH1TLVVBwI7WxplW43BD6Z1.jpg",
+      "genre_ids": [
+        16,
+        35,
+        12,
+        10751
+      ],
+      "id": 459151,
+      "original_language": "en",
+      "original_title": "The Boss Baby: Family Business",
+      "overview": "The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business.",
+      "popularity": 5404.32,
+      "poster_path": "/5dExO5G2iaaTxYnLIFKLWofDzyI.jpg",
+      "release_date": "2021-07-01",
+      "title": "The Boss Baby: Family Business",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 691
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/620hnMVLu6RSZW6a5rwO8gqpt0t.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10751,
+        14
+      ],
+      "id": 508943,
+      "original_language": "en",
+      "original_title": "Luca",
+      "overview": "Luca and his best friend Alberto experience an unforgettable summer on the Italian Riviera. But all the fun is threatened by a deeply-held secret: they are sea monsters from another world just below the water’s surface.",
+      "popularity": 4375.44,
+      "poster_path": "/jTswp6KyDYKtvC52GbHagrZbGvD.jpg",
+      "release_date": "2021-06-17",
+      "title": "Luca",
+      "video": false,
+      "vote_average": 8.1,
+      "vote_count": 2917
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8s4h9friP6Ci3adRGahHARVd76E.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10751,
+        878
+      ],
+      "id": 379686,
+      "original_language": "en",
+      "original_title": "Space Jam: A New Legacy",
+      "overview": "When LeBron and his young son Dom are trapped in a digital space by a rogue A.I., LeBron must get them home safe by leading Bugs, Lola Bunny and the whole gang of notoriously undisciplined Looney Tunes to victory over the A.I.'s digitized champions on the court. It's Tunes versus Goons in the highest-stakes challenge of his life.",
+      "popularity": 4034.709,
+      "poster_path": "/5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg",
+      "release_date": "2021-07-08",
+      "title": "Space Jam: A New Legacy",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 649
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/70AV2Xx5FQYj20labp0EGdbjI6E.jpg",
+      "genre_ids": [
+        80,
+        28,
+        53
+      ],
+      "id": 637649,
+      "original_language": "en",
+      "original_title": "Wrath of Man",
+      "overview": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
+      "popularity": 2648.64,
+      "poster_path": "/M7SUK85sKjaStg4TKhlAVyGlz3.jpg",
+      "release_date": "2021-04-22",
+      "title": "Wrath of Man",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 1392
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tehpKMsls621GT9WUQie2Ft6LmP.jpg",
+      "genre_ids": [
+        12,
+        53,
+        28,
+        27,
+        37
+      ],
+      "id": 602223,
+      "original_language": "en",
+      "original_title": "The Forever Purge",
+      "overview": "All the rules are broken as a sect of lawless marauders decides that the annual Purge does not stop at daybreak and instead should never end as they chase a group of immigrants who they want to punish because of their harsh historical past.",
+      "popularity": 2568.625,
+      "poster_path": "/uHA5COgDzcxjpYSHHulrKVl6ByL.jpg",
+      "release_date": "2021-06-30",
+      "title": "The Forever Purge",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 209
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5HjzYTihkH7EvOWSE7KcsF6pBMM.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        12,
+        16,
+        14
+      ],
+      "id": 522478,
+      "original_language": "en",
+      "original_title": "Peter Rabbit 2: The Runaway",
+      "overview": "Bea, Thomas, and the rabbits have created a makeshift family, but despite his best efforts, Peter can’t seem to shake his mischievous reputation. Adventuring out of the garden, Peter finds himself in a world where his mischief is appreciated, but when his family risks everything to come looking for him, Peter must figure out what kind of bunny he wants to be.",
+      "popularity": 2524.472,
+      "poster_path": "/cycDz68DtTjJrDJ1fV8EBq2Xdpb.jpg",
+      "release_date": "2021-03-25",
+      "title": "Peter Rabbit 2: The Runaway",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 169
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vqEjXzWdzPbV2DZ7bk29weDFiDl.jpg",
+      "genre_ids": [
+        16,
+        12,
+        10751,
+        37
+      ],
+      "id": 637693,
+      "original_language": "en",
+      "original_title": "Spirit Untamed",
+      "overview": "Lucky Prescott's life is changed forever when she moves from her home in the city to a small frontier town and befriends a wild mustang named Spirit.",
+      "popularity": 991.329,
+      "poster_path": "/5cbGVDmRMYVzkq5cItZ7cYlDdDR.jpg",
+      "release_date": "2021-05-20",
+      "title": "Spirit Untamed",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 164
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/g15PR8eQV9DehSWlagvdnJZqoRq.jpg",
+      "genre_ids": [
+        9648,
+        53,
+        27
+      ],
+      "id": 602734,
+      "original_language": "en",
+      "original_title": "Spiral: From the Book of Saw",
+      "overview": "Working in the shadow of an esteemed police veteran, brash Detective Ezekiel “Zeke” Banks and his rookie partner take charge of a grisly investigation into murders that are eerily reminiscent of the city’s gruesome past.  Unwittingly entrapped in a deepening mystery, Zeke finds himself at the center of the killer’s morbid game.",
+      "popularity": 823.445,
+      "poster_path": "/lcyKve7nXRFgRyms9M1bndNkKOx.jpg",
+      "release_date": "2021-05-12",
+      "title": "Spiral: From the Book of Saw",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 577
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/reDeoOvnih7Zv2xKXZAZL7w8KP6.jpg",
+      "genre_ids": [
+        10751,
+        14,
+        16,
+        35
+      ],
+      "id": 529203,
+      "original_language": "en",
+      "original_title": "The Croods: A New Age",
+      "overview": "Searching for a safer habitat, the prehistoric Crood family discovers an idyllic, walled-in paradise that meets all of its needs. Unfortunately, they must also learn to live with the Bettermans -- a family that's a couple of steps above the Croods on the evolutionary ladder. As tensions between the new neighbors start to rise, a new threat soon propels both clans on an epic adventure that forces them to embrace their differences, draw strength from one another, and survive together.",
+      "popularity": 678.544,
+      "poster_path": "/tbVZ3Sq88dZaCANlUcewQuHQOaE.jpg",
+      "release_date": "2020-11-25",
+      "title": "The Croods: A New Age",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 2301
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/roALP6N8Q2h57mBxecQJazs0IFz.jpg",
+      "genre_ids": [
+        27
+      ],
+      "id": 676845,
+      "original_language": "es",
+      "original_title": "Juega Conmigo",
+      "overview": "Sofia, an insecure young woman, begins babysitting two troublesome siblings that turn her job into a complete living hell. That is until a devilish presence starts messing with the trio and they must band together to fight the demon away.",
+      "popularity": 599.806,
+      "poster_path": "/iM5kNvZzcMSmWv7CFTxnTu5zfoa.jpg",
+      "release_date": "2021-02-25",
+      "title": "Come Play With Me",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 109
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xH23sRbfMtwZ2oBtBf607VUNrGt.jpg",
+      "genre_ids": [
+        27
+      ],
+      "id": 645856,
+      "original_language": "en",
+      "original_title": "The Seventh Day",
+      "overview": "A renowned exorcist teams up with a rookie priest for his first day of training. As they plunge deeper into hell on earth, the lines between good and evil blur, and their own demons emerge.",
+      "popularity": 545.989,
+      "poster_path": "/dtt2dfMdmlCcgaJZkPPQsIY5oR6.jpg",
+      "release_date": "2021-03-26",
+      "title": "The Seventh Day",
+      "video": false,
+      "vote_average": 5.6,
+      "vote_count": 84
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ovggmAOu1IbPGTQE8lg4lBasNC7.jpg",
+      "genre_ids": [
+        878,
+        28,
+        12,
+        53
+      ],
+      "id": 412656,
+      "original_language": "en",
+      "original_title": "Chaos Walking",
+      "overview": "Two unlikely companions embark on a perilous adventure through the badlands of an unexplored planet as they try to escape a dangerous and disorienting reality, where all inner thoughts are seen and heard by everyone.",
+      "popularity": 472.86,
+      "poster_path": "/9kg73Mg8WJKlB9Y2SAJzeDKAnuB.jpg",
+      "release_date": "2021-02-24",
+      "title": "Chaos Walking",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 945
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bjIPzixuWnOzxDG25WaXKuy9lYZ.jpg",
+      "genre_ids": [
+        28,
+        35,
+        53
+      ],
+      "id": 522931,
+      "original_language": "en",
+      "original_title": "Hitman's Wife's Bodyguard",
+      "overview": "The world’s most lethal odd couple – bodyguard Michael Bryce and hitman Darius Kincaid – are back on another life-threatening mission. Still unlicensed and under scrutiny, Bryce is forced into action by Darius's even more volatile wife, the infamous international con artist Sonia Kincaid. As Bryce is driven over the edge by his two most dangerous protectees, the trio get in over their heads in a global plot and soon find that they are all that stand between Europe and a vengeful and powerful madman.",
+      "popularity": 465.865,
+      "poster_path": "/6zwGWDpY8Zu0L6W4SYWERBR8Msw.jpg",
+      "release_date": "2021-06-14",
+      "title": "Hitman's Wife's Bodyguard",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 233
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wu1uilmhM4TdluKi2ytfz8gidHf.jpg",
+      "genre_ids": [
+        10751,
+        16,
+        14,
+        12,
+        35
+      ],
+      "id": 400160,
+      "original_language": "en",
+      "original_title": "The SpongeBob Movie: Sponge on the Run",
+      "overview": "When his best friend Gary is suddenly snatched away, SpongeBob takes Patrick on a madcap mission far beyond Bikini Bottom to save their pink-shelled pal.",
+      "popularity": 301.727,
+      "poster_path": "/jlJ8nDhMhCYJuzOw3f52CP1W8MW.jpg",
+      "release_date": "2020-08-14",
+      "title": "The SpongeBob Movie: Sponge on the Run",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 2235
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jnq4fV53Px9HvUZD2bQIxtGSwS7.jpg",
+      "genre_ids": [
+        80,
+        18,
+        28
+      ],
+      "id": 644083,
+      "original_language": "en",
+      "original_title": "Twist",
+      "overview": "A Dickens classic brought thrillingly up to date in the teeming heartland of modern London, where a group of street smart young hustlers plan the heist of the century for the ultimate payday.",
+      "popularity": 284.259,
+      "poster_path": "/7sXthW46RwmPBdacGHnhOzLv40d.jpg",
+      "release_date": "2021-01-22",
+      "title": "Twist",
+      "video": false,
+      "vote_average": 6.3,
+      "vote_count": 94
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7HtvmsLrDeiAgDGa1W3m6senpfE.jpg",
+      "genre_ids": [
+        12,
+        16,
+        10751
+      ],
+      "id": 681260,
+      "original_language": "en",
+      "original_title": "Maya the Bee: The Golden Orb",
+      "overview": "When Maya, a headstrong little bee, and her best friend Willi, rescue an ant princess they find themselves in the middle of an epic bug battle that will take them to strange new worlds and test their friendship to its limits.",
+      "popularity": 280.595,
+      "poster_path": "/tMS2qcbhbkFpcwLnbUE9o9IK4HH.jpg",
+      "release_date": "2021-01-07",
+      "title": "Maya the Bee: The Golden Orb",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 47
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tbTjcH6l4SS6ccmdFsVDyKX2NZ9.jpg",
+      "genre_ids": [
+        12,
+        14,
+        10751,
+        35
+      ],
+      "id": 451048,
+      "original_language": "en",
+      "original_title": "Jungle Cruise",
+      "overview": "Dr. Lily Houghton enlists the aid of wisecracking skipper Frank Wolff to take her down the Amazon in his dilapidated boat. Together, they search for an ancient tree that holds the power to heal – a discovery that will change the future of medicine.",
+      "popularity": 273.691,
+      "poster_path": "/bEFFj0KKtOIYbydhcxJSDq0hzg7.jpg",
+      "release_date": "2021-07-28",
+      "title": "Jungle Cruise",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6XVqVAMOsKL5C26pHesiAawuGYW.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 630586,
+      "original_language": "en",
+      "original_title": "Wrong Turn",
+      "overview": "Jen and a group of friends set out to hike the Appalachian Trail. Despite warnings to stick to the trail, the hikers stray off course—and cross into land inhabited by The Foundation, a hidden community of mountain dwellers who use deadly means to protect their way of life.",
+      "popularity": 271.474,
+      "poster_path": "/4U1SBHmwHkNA0eHZ2n1CuiC1K1g.jpg",
+      "release_date": "2021-01-26",
+      "title": "Wrong Turn",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 469
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5MlvT4DZIdkpb7A9t375HVoiJ1v.jpg",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "id": 646207,
+      "original_language": "en",
+      "original_title": "The Ice Road",
+      "overview": "After a remote diamond mine collapses in far northern Canada, an ice road driver must lead an impossible rescue mission over a frozen ocean to save the trapped miners.",
+      "popularity": 213.415,
+      "poster_path": "/yGQnzSkjhEHERzXVu7tWIcvPjYM.jpg",
+      "release_date": "2021-06-24",
+      "title": "The Ice Road",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 383
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hugKriLPeBm3lErSCQiFOgQzpkC.jpg",
+      "genre_ids": [
+        28,
+        53,
+        80
+      ],
+      "id": 574060,
+      "original_language": "en",
+      "original_title": "Gunpowder Milkshake",
+      "overview": "In her turbulent life as a professional assassin, Scarlet was cruelly forced to abandon her daughter Sam and go on the run. Years later, despite the estrangement, Sam has also grown up into a cold blooded hitwoman. After a high-stake mission spins out of control, putting an innocent 8-year-old girl in the middle of the gang war she has unleashed, Sam has no choice but to go rogue. This ultimately leads her back to her mother and her former hitwomen sidekicks, who all join forces in an avenging war against those who took everything from them.",
+      "popularity": 167.282,
+      "poster_path": "/9BLIRT7AFDhJnZJdq9KCrEywhQk.jpg",
+      "release_date": "2021-07-15",
+      "title": "Gunpowder Milkshake",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 65
+    }
+  ],
+  "total_pages": 20,
+  "total_results": 384
+}
