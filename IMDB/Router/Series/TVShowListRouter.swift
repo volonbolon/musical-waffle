@@ -7,6 +7,6 @@
 
 import Foundation
 
-class SeriesListRouter {
-    func makeDetailView(for series: Int, model)
-}
+//class SeriesListRouter {
+//    func makeDetailView(for series: Int, model)
+//}
